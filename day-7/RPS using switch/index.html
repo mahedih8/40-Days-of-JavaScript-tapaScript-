@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>RPS Game</title>
+</head>
+<body>
+    <div id="container">
+        <h2 id="heading">Rock Paper Scissors Game</h2>
+        <div id="game_body">
+            <div id="form_section">
+                <form action="" id="form">
+                    <img id="img_resize" src="img/rockpaperscissor.gif" alt="image">
+                    <h3 id="heading3">Choose one</h3>
+                    <label for="rock">Rock</label>
+                    <input value="rock" type="radio" name="select_one" id="rock">
+                    <label for="paper">Paper</label>
+                    <input value="paper" type="radio" name="select_one" id="paper">
+                    <label for="scissors">Scissors</label>
+                    <input value="scissors" type="radio" name="select_one" id="scissors"><br>
+                    <button id="btn" type="submit">Play</button>                    
+                </form>
+            </div>
+            <div id="result_section">
+                <p>Announcement:</p>
+                <img id="resultImage" src="img/defoult.jpeg" alt="image">
+                <h2 id="result">Not played yet🙃</h2>
+                <p class="result_info">Computer will select after you.</p>
+                <h4  id="game_info">Winning conditions</h4>
+            </div>
+            <div id="play_again_section">
+                <button id="play_again_btn">Clean it</button>
+            </div>
+            <h3 class="author_text">Md Mahedi Hasan</h3>
+        </div>
+    </div>
+</body>
+</html> 
